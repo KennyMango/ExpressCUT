@@ -1,0 +1,77 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#topbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+
+#maindiv{
+    width: 100vw;
+    height: 90vh;
+    background-color: green;
+}
+
+#mainpic{
+    width: 80vw;
+    height: 80vh;
+}
+
+#logo{
+    width: 5%;
+    margin-left: 2%;
+    display: inline-block;
+    float: left;
+}
+
+#cart{
+    color: #89D6F3;
+    float: right;
+    margin-top: 2%;
+    position: absolute;
+    margin-left: 95%;
+}
+
+#cartcounter{
+    font-size: 10px;
+    color: white;
+    float: right;
+    margin-top: 1.3%;
+    margin-right: 2%;
+}
+
+#buy{
+    color: white;
+    float:right;
+    margin-top: 1.7%;
+    position: absolute;
+    margin-left: 89%;
+    border: 2px solid;
+    border-color: #89D6F3;
+    border-radius: 4%;
+    padding: 0.2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #89D6F3;
+}
+
+#support{
+    color: white;
+    float:right;
+    margin-top: 2%;
+    position: absolute;
+    margin-left: 82%;
+}
+
+#home{
+    color: white;
+    float:right;
+    margin-top: 2%;
+    position: absolute;
+    margin-left: 76%;
+}
