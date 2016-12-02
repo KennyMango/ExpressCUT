@@ -1,42 +1,99 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Express Cut</title>
-        <link rel="shortcut icon" href="http://www.iconj.com/ico/s/y/syhnuoh27f.ico" type="image/x-icon" />
-    </head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="cutjs.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="styling.css">
-    <body>
-       
-        <div id = "topbar">
-            <img id = "logo" src = "http://i.imgur.com/qf1jHlG.png"/>
-            <p id = "cartcounter">1</p>
-            <p id = "support">SUPPORT</p>
-            <p id="home">HOME</p>
-            <p id="buy">BUY</p>
-            <p id = "cart">CART</p>
-        </div>
-       
-        <div id = "maindiv">
-            <h3 id="bigtext">YOUR HAIRCUT. YOUR HOME.</h3>
-            <img id = "mainpic" src = "https://static1.squarespace.com/static/55114dfde4b0a8906919f76a/t/55816566e4b032e0bb30b0d7/1434543488219/11_EnergyPod+-+Black+Background.jpg?format=1500w"/>
-            <p id="mainpicdesc">Control your haircut at the comfort of your home.</p>
-            <p id="mainpicbuy">BUY</p>
-        </div>
-       
-        <div id="mainsecpage">
-            <img id = "mainsecpic" src ="http://www.quixote.com/wp-content/uploads/2013/08/metronapssleepingpod3.jpg"/>
-            <h3 id = "bigtextsecpgone">HOW</h3>
-            <h3 id = "bigtextsecpgtwo">IT WORKS</h3>
-            <p id = "smalltextsecpg">Once you sit down on the luxurious chair experience a fast haircut experience. You will experience great comfort even when you are not getting a haircut.</p>
-            <p class ="points">></p>
-            <p class = "pointsdesc">Sit down and get comfortable</p>
-            <p id = "pointstwo" class ="points">></p>
-            <p class = "pointsdesc" id = "pointsdesctwo">Open the app and select hairstyle and adjust settings</p>
-            <p id = "pointsthree" class ="points">></p>
-            <p class = "pointsdesc" id = "pointsdescthree">Sit tight and enjoy an express haircut</p>
-        </div>
-    </body>
-    </html>
+<html lang="en">
+<head>
+  <title>Express Cut</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="cutjs.js"></script>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        
+.navbar-default{
+    background-color: black;
+    border-color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #89D6F3;
+    background-color: transparent;
+}
+  </style>  
+    
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img id = "logo" src = "http://i.imgur.com/qf1jHlG.png"/></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">HOME</a></li>
+        <li><a href="#">SUPPORT</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> CART</a></li>  
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+            <img src = "https://static1.squarespace.com/static/55114dfde4b0a8906919f76a/t/55816566e4b032e0bb30b0d7/1434543488219/11_EnergyPod+-+Black+Background.jpg?format=1500w"/>
+        <div class="carousel-caption">
+        </div>      
+      </div>
+
+      <div class="item">
+            <img src = "https://static1.squarespace.com/static/55114dfde4b0a8906919f76a/t/55816566e4b032e0bb30b0d7/1434543488219/11_EnergyPod+-+Black+Background.jpg?format=1500w"/>
+        <div class="carousel-caption">
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container text-center">    
+  <h3>CHANGE THE RIGHT IMAGE TO TEXT</h3><br>
+  <div class="row">
+    <div class="col-sm-6"> 
+        <img id = "mainsecpic" src ="http://www.quixote.com/wp-content/uploads/2013/08/metronapssleepingpod3.jpg" style="width:100%"/>
+    </div>
+    <div class="col-sm-6"> 
+        <img id = "mainsecpic" src ="http://www.quixote.com/wp-content/uploads/2013/08/metronapssleepingpod3.jpg" style="width:100%"/>
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
