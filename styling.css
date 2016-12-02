@@ -21,9 +21,83 @@ footer {
     max-height: 800px
 }
 
+#shopbut {
+    position: relative;
+    float: right;
+    top: -70px;
+}
+
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
     .carousel-caption {
         display: none; 
     }
 }
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: dimgray;
+    color: #89D6F3;
+}
+
+[class*="entypo-"]:before {
+   font-family: "entypo", sans-serif;
+}
+a { 
+   text-decoration: none;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.container {
+   margin: 0 auto;
+   padding: 20px 50px;
+   background: white;
+}
+#leftsocial {
+   left: 0;
+   position: fixed;
+   top: 300px;
+}
+#leftsocial a {
+   background: #333;
+   color: #fff;
+   display: block;
+   height: 35px;
+   font: 16px "Open Sans", sans-serif;
+   line-height: 35px;
+   position: relative;
+   text-align: center;
+   width: 35px;
+}
+#leftsocial a span {
+   line-height: 35px;
+   left: -120px;
+   position: absolute;
+   text-align:center;
+   width:120px;
+}
+#leftsocial a:hover span {
+   left: 100%;
+}
+#leftsocial a[class*="facebook"],
+#leftsocial a[class*="facebook"]:hover,
+#leftsocial a[class*="facebook"] span { background: #3b5998; }
+
+#leftsocial a[class*="twitter"],
+#leftsocial a[class*="twitter"]:hover,
+#leftsocial a[class*="twitter"] span { background: #00aced; }
+
+#leftsocial a[class*="gplus"],
+#leftsocial a[class*="gplus"]:hover,
+#leftsocial a[class*="gplus"] span { background: #dd4b39; }  
+
+#leftsocial a[class*="linkedin"],
+#leftsocial a[class*="linkedin"]:hover,
+#leftsocial a[class*="linkedin"] span { background: #007bb6; }  
+
+#sticky-social a[class*="instagrem"],
+#sticky-social a[class*="instagrem"]:hover,
+#sticky-social a[class*="instagrem"] span { background: #517fa4; }  
+
