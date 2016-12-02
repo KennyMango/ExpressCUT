@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
 #logo{
     width: 30%;
     top: -50%;
@@ -12,6 +22,10 @@
 footer {
     background-color: #f2f2f2;
     padding: 25px;
+}
+
+.carousel{
+    padding-bottom: 20px;
 }
     
 .carousel-inner img {
