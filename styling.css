@@ -4,31 +4,32 @@ html, body{
     overflow-x: hidden;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-
+ 
 #topbar{
     width: 100vw;
     height: 10vh;
     background-color: black;
 }
-
+ 
 #maindiv{
     width: 100vw;
     height: 90vh;
-    background-color: green;
 }
-
+ 
 #mainpic{
-    width: 80vw;
-    height: 80vh;
+    width: 100vw;
+    height: 46.8vw;
+    position: absolute;
+    z-index: -1;
 }
-
+ 
 #logo{
     width: 5%;
     margin-left: 2%;
     display: inline-block;
     float: left;
 }
-
+ 
 #cart{
     color: #89D6F3;
     float: right;
@@ -36,15 +37,15 @@ html, body{
     position: absolute;
     margin-left: 95%;
 }
-
+ 
 #cartcounter{
     font-size: 10px;
     color: white;
     float: right;
     margin-top: 1.3%;
-    margin-right: 2%;
+    margin-right: 3.2%;
 }
-
+ 
 #buy{
     color: white;
     float:right;
@@ -59,19 +60,119 @@ html, body{
     padding-right: 1%;
     background-color: #89D6F3;
 }
-
+ 
 #support{
     color: white;
-    float:right;
     margin-top: 2%;
     position: absolute;
     margin-left: 82%;
 }
-
+ 
 #home{
     color: white;
-    float:right;
     margin-top: 2%;
     position: absolute;
     margin-left: 76%;
+}
+ 
+#bigtext{
+    font-size: 500%;
+    width: 40vw;
+    color: white;
+    margin-left: 60%;
+    position: absolute;
+}
+ 
+#mainpicdesc{
+    color: white;
+    position: absolute;
+    font-size: 200%;
+    width: 30vw;
+    margin-top: 12%;
+    margin-left: 60%;
+}
+ 
+#mainpicbuy{
+    font-size: 200%;
+    color: white;
+    margin-top: 35%;
+    position: absolute;
+    margin-left: 86%;
+    border: 2px solid;
+    border-color: #89D6F3;
+    border-radius: 4%;
+    padding: 0.2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #89D6F3;
+}
+ 
+#mainsecpage{
+    color:white;
+    width: 100vw;
+    height: 100vh;
+}  
+ 
+#mainsecpic{
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 10%;
+}
+#bigtextsecpgone{
+    position: absolute;
+    color: black;
+    font-size: 500%;
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+ 
+#bigtextsecpgtwo{
+    position: absolute;
+    color: black;
+    font-size: 500%;
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+ 
+#smalltextsecpg{
+    color: black;
+    font-size: 150%;
+    width:40%;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50%;
+}
+ 
+.points{
+    color: #89D6F3;
+    position: absolute;
+    font-size: 300%;
+    margin-left: 50%;
+    margin-top: 21%;
+}
+ 
+.pointsdesc{
+    color: black;
+    position: absolute;
+    font-size: 150%;
+    margin-left: 52%;
+    margin-top: 22%;
+   
+}
+ 
+#pointsdesctwo{
+    margin-top: 25%;
+}
+ 
+#pointsdescthree{
+    margin-top: 28%;
+}
+#pointstwo{
+    margin-top: 24%;
+}
+ 
+#pointsthree{
+    margin-top: 27%;
 }
