@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    overflow-x:hidden
+}
 
 p{
     font-family: 'Roboto', sans-serif;
@@ -47,6 +50,10 @@ footer {
     top: -70px;
 }
 
+.icon-color{
+    color: #89D6F3;
+}
+
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
     .carousel-caption {
@@ -79,6 +86,7 @@ ul {
    left: 0;
    position: fixed;
    top: 300px;
+   z-index: 20;
 }
 #leftsocial a {
    background: #333;
@@ -131,10 +139,235 @@ ul {
     background: #517fa4; 
 }
 
-#howHeader{
+.howHeader{
     position: relative;
     float: left;
     text-align: left;
 }
 
+#howheader{
+    color: #89D6F3;
+    font-weight: 900;
+}
 
+
+
+.interactiveinfo {
+    position:relative;
+    overflow:hidden;
+}
+.interactiveinfo figure {
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+
+}
+.interactiveinfo figure img {
+    display:block;
+    position:relative;
+    z-index:10;
+}
+.interactiveinfo figure figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.interactiveinfo figure h2 {
+    color: black;
+    font-size:20px;
+    text-align:center
+}
+.interactiveinfo figure p {
+    display:block;
+    font-size:12px;
+    line-height:18px;
+    margin:0;
+    color: black;
+    text-align:center;
+}
+.interactiveinfo figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: #89D6F3;
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.interactiveinfo figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.interactiveinfo figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+.interactiveinfo figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
+
+@media screen and (max-width: 700px) {
+   
+    #modelpic{
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+   
+    #model3{
+        font-size: 12px;
+        width: 100px;
+    }
+   
+    #modelx{
+        font-size: 12px;
+        margin-top: 3%;
+        width: 100px;
+    }
+   
+    #selection{
+        font-size: 12px;
+        text-align: center;
+       
+    }
+   
+    #specs{
+        background-color: #262626;
+        margin-top: 10%;
+        text-align: center;
+        color: #5BBEDD;
+    }
+   
+    footer{
+        width: 100%;
+        background-color: #222;
+        color: white;
+    }
+}
+ 
+@media screen and (min-width: 1535px) {
+ 
+    #selection{
+        margin-top: 5%;
+        font-size: 28px;
+       
+    }
+ 
+    #modelpic{
+        width: 80%;
+    }
+ 
+    #buytitle{
+        font-size: 300%;
+    }
+   
+    #accessories{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+ 
+    #addaccessories{
+        color: white;
+    }
+   
+    #buypage{
+        background-color: slategray;
+    }
+ 
+    #specs{
+        background-color: #262626;
+        width: 100vw;
+        height: 3vw;
+        margin-top: 7%;
+        text-align: center;
+        color: #5BBEDD;
+    }
+ 
+    #seemorespecs{
+        margin-top: -4%;
+        font-size: 300%;
+    }
+ 
+    #addaccessories{
+        color: white;
+        font-size: 150%;
+    }
+ 
+    #seemorespecsbut{
+        color: #5BBEDD;
+        font-size: 84%;
+    }  
+ 
+    #specsdiv{
+        background-color:white;
+        width: 100vw;
+        height: 60vh;
+    }
+   
+    #aboutus{
+        font-size: 8px;
+    }
+}
+ 
+@media screen and (min-width: 1535px) {
+ 
+    /* Foooter */
+    footer{
+        width: 100%;
+        background-color: #222;
+        height: 28vh;
+        color: white;
+    }
+ 
+    #footertext{
+        font-size: 2vw;
+        color: white;
+    }
+ 
+    #footerdiv{
+        font-size: 250%;
+    }
+ 
+    #aboutus{
+        font-size: 33%;
+    }
+ 
+    #gototop{
+        font-size: 30%;
+    }
+ 
+    #toptext{
+        color: #5BBEDD;
+    }
+}
+
+.about {
+    text-align: left;
+}
+
+.leftspecs {
+    text-align: right;
+}
+
+.rightspecs {
+    text-align: left;
+}
+
+.centerline{
+    text-align: center;
+}
