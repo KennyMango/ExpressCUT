@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Express Cut</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="cutjs.js"></script>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+        
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+        
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #89D6F3;
+    background-color: transparent;
+}
+</style>  
+    
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="index.html"><img id = "logo" src = "http://i.imgur.com/khUuogz.png"/></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">HOME</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">SUPPORT<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+          </li>
+        <li><a href="index2.html">SHOP</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> CART<span class="badge">0</span></a></li>  
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br/>
+<br/>
+<br/>    
+    
+<div class="container text-center">
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="http://i.imgur.com/rarp8ih.jpg" style="width:100%" />
+        </div>
+    </div>
+</div>
+    
+<div class="container">
+	<div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div id="imaginary_container"> 
+                <div class="input-group style-input">
+                    <input type="text" class="form-control"  placeholder="Search" >
+                    <span class="input-group-addon">
+                        <button type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>  
+                    </span>
+                </div>
+            </div>
+        </div>
+	</div>
+</div> 
+    
+<div class="container text-center">
+    <div class="row">
+        <div class="col-sm-3">
+            <img class="faqicon" src="http://i.imgur.com/B8yrfHx.png"/>
+        </div>
+        <div class="col-sm-3">
+            <img class="faqicon" src="http://i.imgur.com/14ko7w9.png"/>
+        </div>
+        <div class="col-sm-3">
+            <img class="faqicon" src="http://i.imgur.com/VQeXDUZ.png"/>
+        </div>
+        <div class="col-sm-3">
+            <img class="faqicon" src="http://i.imgur.com/Je8FCFC.png"/>
+        </div>
+    </div>
+</div>
+    
+    
+<div class="container text-center">
+    <div class="row">
+        <div class="col-sm-3">
+            <h3>Getting Started</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        </div>
+        <div class="col-sm-3">
+            <h3>Quick Answers</h3>
+            <p>parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis.</p>
+        </div>
+        <div class="col-sm-3">
+            <h3>Glossary</h3>
+            <p>mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus</p>
+        </div>
+        <div class="col-sm-3">
+            <h3>Video Tutorials</h3>
+            <p>metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies.</p>
+        </div>
+    </div>
+</div> 
+    
+    
+<aside id="leftsocial">
+    <ul>
+        <li><a class="entypo-facebook"><span>Facebook</span></a></li>
+        <li><a class="entypo-twitter"><span>Twitter</span></a></li>
+        <li><a class="entypo-gplus"><span>Google+</span></a></li>
+        <li><a class="entypo-linkedin"><span>LinkedIn</span></a></li>
+        <li><a class="entypo-instagrem"><span>Instagram</span></a></li>
+
+    </ul>
+</aside>    
+ 
+
+<br/>
+<br/>    
+<footer class="foot">
+        <div class="container-fluid">
+        <div class="row" id="footerdiv">
+            <div class="col-sm-3">
+                <ul>
+                    <li><a href="FAQ.html"><button type="button" class="btn btn-link" id="footertext">FAQ</button></a></li>
+                    <li><a href="Contact.html"><button type="button" class="btn btn-link" id="footertext">CONTACT</button></a></li>
+                    <li><button type="button" class="btn btn-link" id="footertext">INFOGRAPH</button></li>
+                </ul>
+            </div>
+            <div class="col-sm-9">
+                <p>About Us</p>
+            </div>
+            <div class="col-sm-9">
+                <p id="aboutus">Lorem ipsum dolor sit amet, urna id non urna accumsan, quis dui, enim consequat aliquam eu eu sollicitudin. Neque at mattis in. Turpis integer tincidunt, cillum lorem vivamus integer interdum, sed magna et, dignissim aenean ultricies pede habitasse ullamcorper ac, eu in mauris libero ac mollis. Placerat sed porta dolor placerat neque porta, in lobortis nulla sem sapien nec, leo at gravida, dictum netus sit, tincidunt vel natus commodo. Dis ligula vestibulum magna, magna etiam ipsum at, pellentesque tenetur, et ultricies tortor class non amet augue. Velit viverra mollis at, tincidunt elit pellentesque vestibulum fusce risus, quibusdam velit cursus erat ullamcorper.</p>
+            </div>
+            <div class="col-sm-12 text-center" id="gototop"><a href="#top" id="toptext">Back to top</a></div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>    
+    
+    
