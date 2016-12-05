@@ -12,8 +12,12 @@ h1, h2, h3, h4, h6{
     font-family: 'Roboto', sans-serif;
 }
 
-#logo{
-    width: 30%;
+.navbar-brand {
+    width: 175px;
+}
+
+#logo {
+    width: 100%;
     top: -50%;
     position: relative;
 }
@@ -236,138 +240,17 @@ ul {
     transform:rotateY(0)
 }
 
-@media screen and (max-width: 700px) {
-   
-    #modelpic{
-        width: 60%;
-        display: block;
-        margin: 0 auto;
-    }
-   
-    #model3{
-        font-size: 12px;
-        width: 100px;
-    }
-   
-    #modelx{
-        font-size: 12px;
-        width: 100px;
-    }
-   
-    #selection{
-        font-size: 12px;
-        text-align: center;
-       
-    }
-   
-    #specs{
-        background-color: #262626;
-        margin-top: 10%;
-        text-align: center;
-        color: #5BBEDD;
-    }
-   
-    footer{
-        width: 100%;
-        background-color: #222;
-        color: white;
-    }
+
+#aboutus{
+    font-size: 100%;
 }
  
-@media screen and (min-width: 1535px) {
- 
-    #selection{
-        margin-top: 5%;
-        font-size: 28px;
-       
-    }
- 
-    #modelpic{
-        width: 80%;
-    }
- 
-    #buytitle{
-        font-size: 300%;
-    }
-   
-    #accessories{
-        margin-top: 4%;
-        margin-bottom: 4%;
-    }
- 
-    #addaccessories{
-        color: white;
-    }
-   
-    #buypage{
-        background-color: slategray;
-    }
- 
-    #specs{
-        background-color: #262626;
-        width: 100vw;
-        height: 3vw;
-        margin-top: 7%;
-        text-align: center;
-        color: #5BBEDD;
-    }
- 
-    #seemorespecs{
-        margin-top: -4%;
-        font-size: 300%;
-    }
- 
-    #addaccessories{
-        color: white;
-        font-size: 150%;
-    }
- 
-    #seemorespecsbut{
-        color: #5BBEDD;
-        font-size: 84%;
-    }  
- 
-    #specsdiv{
-        background-color:white;
-        width: 100vw;
-        height: 60vh;
-    }
-   
-    #aboutus{
-        font-size: 8px;
-    }
+#gototop{
+    font-size: 100%;
 }
  
-@media screen and (min-width: 1535px) {
- 
-    /* Foooter */
-    footer{
-        width: 100%;
-        background-color: #222;
-        height: 28vh;
-        color: white;
-    }
- 
-    #footertext{
-        font-size: 2vw;
-        color: white;
-    }
- 
-    #footerdiv{
-        font-size: 250%;
-    }
- 
-    #aboutus{
-        font-size: 33%;
-    }
- 
-    #gototop{
-        font-size: 30%;
-    }
- 
-    #toptext{
-        color: #5BBEDD;
-    }
+#toptext{
+    color: #5BBEDD;
 }
 
 .about {
@@ -384,5 +267,24 @@ ul {
 
 .centerline{
     text-align: center;
+}
+
+.foot {
+    background-color: slategrey;
+    position: relative;
+    bottom: 0;
+}
+
+#footertext {
+    color: black;
+}
+
+#message{
+    height: 300px;
+    
+}
+
+.contactpage{
+    text-align: left;
 }
 
