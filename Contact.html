@@ -39,7 +39,7 @@
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">SUPPORT<b class="caret"></b></a>
             <ul class="dropdown-menu">
-                <li><a href="#">Installation</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
                 <li><a href="Contact.html">Contact Us</a></li>
             </ul>
           </li>
@@ -63,6 +63,7 @@
                     <p class="contactpage">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum </p>
                 </div>
             </div>
+            <form id="form1">
             <div class="row">
                 <div class="col-sm-6">
                     <input type="text" class="form-control" placeholder="First Name">
@@ -74,10 +75,13 @@
             <br/>
             <div class="row">
                 <div class="col-sm-12">
-                    <textarea rows="15" cols="102">
+                    <textarea placeholder="Type Message Here" class="form-control" rows="15">
                     </textarea>
                 </div>
             </div>
+            </form>
+            <br/>
+            <button id="submitbut" type="submit" form="form1" value="Submit" class="btn btn-danger">Send</button>
         </div>
         <div class="col-sm-4">
             <br/>
@@ -123,7 +127,7 @@
         <div class="row" id="footerdiv">
             <div class="col-sm-3">
                 <ul>
-                    <li><button type="button" class="btn btn-link" id="footertext">FAQ</button></li>
+                    <li><a href="FAQ.html"><button type="button" class="btn btn-link" id="footertext">FAQ</button></a></li>
                     <li><a href="Contact.html"><button type="button" class="btn btn-link" id="footertext">CONTACT</button></a></li>
                     <li><button type="button" class="btn btn-link" id="footertext">INFOGRAPH</button></li>
                 </ul>
