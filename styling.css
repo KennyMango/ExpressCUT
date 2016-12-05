@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body{
     overflow-x:hidden
 }
@@ -17,10 +18,23 @@ h1, h2, h3, h4, h6{
     position: relative;
 }
 
+#slide1caption{
+    position: relative;
+    top: -450px;
+    font-size: 350%;
+    left: 500px;
+    text-align: left;
+}
+
 #slide2caption{
     position: relative;
     top: -200px;
     font-size: 500%;
+}
+
+#designheader{
+    color: #89D6F3;
+    background-color: #262626;    
 }
       
 .navbar {
@@ -65,6 +79,7 @@ footer {
     background-color: dimgray;
     color: #89D6F3;
 }
+
 
 [class*="entypo-"]:before {
    font-family: "entypo", sans-serif;
@@ -236,7 +251,6 @@ ul {
    
     #modelx{
         font-size: 12px;
-        margin-top: 3%;
         width: 100px;
     }
    
@@ -361,7 +375,7 @@ ul {
 }
 
 .leftspecs {
-    text-align: right;
+    text-align: left;
 }
 
 .rightspecs {
@@ -371,3 +385,4 @@ ul {
 .centerline{
     text-align: center;
 }
+
