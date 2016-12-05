@@ -270,13 +270,14 @@ ul {
 }
 
 .foot {
-    background-color: slategrey;
+    background-color: #1f1f14;
     position: relative;
     bottom: 0;
+    color: white;
 }
 
 #footertext {
-    color: black;
+    color: white;
 }
 
 #message{
@@ -288,3 +289,25 @@ ul {
     text-align: left;
 }
 
+#submitbut {
+    float: right;
+    width: 100%;
+}
+
+.stylish-input .input-group-addon{
+    background: white !important; 
+}
+.stylish-input .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input button{
+    border:0;
+    background:transparent;
+}
+
+.faqicon{
+    width: 150px;
+    height: 150px;
+}
