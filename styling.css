@@ -24,17 +24,19 @@ h1, h2, h3, h4, h6{
 }
 
 #slide1caption{
-    position: relative;
+    position: absolute;
     top: -450px;
     font-size: 350%;
     left: 500px;
     text-align: left;
+    z-index: 5
 }
 
 #slide2caption{
-    position: relative;
+    position: absolute;
     top: -200px;
     font-size: 500%;
+    z-index: 5
 }
 
 #designheader{
