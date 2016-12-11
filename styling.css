@@ -24,7 +24,7 @@ h1, h2, h3, h4, h6{
 }
 
 #slide1caption{
-    position: absolute;
+    position: relative;
     top: -450px;
     font-size: 350%;
     left: 500px;
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h6{
 }
 
 #slide2caption{
-    position: absolute;
+    position: relative;
     top: -200px;
     font-size: 500%;
     z-index: 5
@@ -327,3 +327,4 @@ ul {
     width: 150px;
     height: 150px;
 }
+
