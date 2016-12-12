@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Express Cut</title>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <script src="cutjs2.js"></script>
+	   <link rel="stylesheet" type="text/css" href="styling.css">
+
+<style>
+        
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+        
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #89D6F3;
+    background-color: transparent;
+}
+</style>  
+    
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="index.html"><img id = "logo" src = "http://i.imgur.com/khUuogz.png"/></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">HOME</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">SUPPORT<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="infograph.html">Learn More</a></li>
+            </ul>
+          </li>
+        <li><a href="index2.html">SHOP</a></li>
+        <li><a href="checkout.html"><span class="glyphicon glyphicon-shopping-cart"></span> CART<span class="badge" id="badgenumber">0</span></a></li>  
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+        <aside id="leftsocial">
+            <ul>
+                <li><a class="entypo-facebook"><span>Facebook</span></a></li>
+                <li><a class="entypo-twitter"><span>Twitter</span></a></li>
+                <li><a class="entypo-gplus"><span>Google+</span></a></li>
+                <li><a class="entypo-linkedin"><span>LinkedIn</span></a></li>
+                <li><a class="entypo-instagrem"><span>Instagram</span></a></li>
+ 
+            </ul>
+        </aside>
+       
+        <center><div style="margin-top:10%;">
+            <img style="width:50%;"  src="http://i.imgur.com/WqBggK8.png" title="image 1" alt="image 1" id="image1" class="image-toggle" style="display:initial;"/>
+            <img  style="width:50%" src="http://i.imgur.com/YtJ8nLy.png" title="image 2" alt="image 2" id="image2" class="image-toggle" style="display:none;"/>
+            <img style="width:50%" src="http://i.imgur.com/ia1338b.png" title="image 3" alt="image 3" id="image3" class="image-toggle" style="display:none;"/>
+            <img style="width:50%" src="http://i.imgur.com/RP4XU3F.png" title="image 4" alt="image 4" id="image4" class="image-toggle" style="display:none;"/>
+            <img style="width:50%" src="http://i.imgur.com/gm7sdqv.png" title="image 5" alt="image 5" id="image5" class="image-toggle" style="display:none;"/>
+            <img style="width:50%" src="http://i.imgur.com/ppGQh5Y.png" title="image 6" alt="image 6" id="image6" class="image-toggle" style="display:none;"/>
+            <img style="width:50%" src="http://i.imgur.com/hWSIqJp.png" title="image 7" alt="image 7" id="image7" class="image-toggle" style="display:none;"/>
+            </div></center>
+        <center><div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-primary image-toggler" data-image-id="#image1">
+            <input type="radio" name="options" id="option1"> Show Image 1
+          </label>
+          <label class="btn btn-primary image-toggler" data-image-id="#image2">
+            <input type="radio" name="options" id="option2"> Show Image 2
+          </label>
+           <label class="btn btn-primary image-toggler" data-image-id="#image3">
+            <input type="radio" name="options" id="option2"> Show Image 3
+          </label>
+            <label class="btn btn-primary image-toggler" data-image-id="#image4">
+            <input type="radio" name="options" id="option2"> Show Image 4
+          </label>
+          <label class="btn btn-primary image-toggler" data-image-id="#image5">
+            <input type="radio" name="options" id="option2"> Show Image 5
+          </label>
+          <label class="btn btn-primary image-toggler" data-image-id="#image6">
+            <input type="radio" name="options" id="option2"> Show Image 6
+          </label>
+          <label class="btn btn-primary image-toggler" data-image-id="#image7">
+            <input type="radio" name="options" id="option2"> Show Image 7
+          </label>
+        </div></center>
+        <center><div>
+            <img style="width:30%;" src = "http://i.imgur.com/u8qwzxf.png"/>
+            <img style="width:30%;" src = "http://i.imgur.com/gSqxOE2.png"/>
+            <img style="width:40%;" src = "http://i.imgur.com/aYlWH0o.png"/>
+        </div></center>
+    
+    
+<footer class="foot">
+        <div class="container-fluid">
+        <div class="row" id="footerdiv">
+            <div class="col-sm-3">
+                <ul>
+                    <li><a href="FAQ.html"><button type="button" class="btn btn-link" id="footertext">FAQ</button></a></li>
+                    <li><a href="Contact.html"><button type="button" class="btn btn-link" id="footertext">CONTACT</button></a></li>
+                    <li><a href="infograph.html"><button type="button" class="btn btn-link" id="footertext">INFOGRAPH</button></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9">
+                <p>About Us</p>
+            </div>
+            <div class="col-sm-9">
+                <p id="aboutus">Lorem ipsum dolor sit amet, urna id non urna accumsan, quis dui, enim consequat aliquam eu eu sollicitudin. Neque at mattis in. Turpis integer tincidunt, cillum lorem vivamus integer interdum, sed magna et, dignissim aenean ultricies pede habitasse ullamcorper ac, eu in mauris libero ac mollis. Placerat sed porta dolor placerat neque porta, in lobortis nulla sem sapien nec, leo at gravida, dictum netus sit, tincidunt vel natus commodo. Dis ligula vestibulum magna, magna etiam ipsum at, pellentesque tenetur, et ultricies tortor class non amet augue. Velit viverra mollis at, tincidunt elit pellentesque vestibulum fusce risus, quibusdam velit cursus erat ullamcorper.</p>
+            </div>
+            <div class="col-sm-12 text-center" id="gototop"><a href="#top" id="toptext">Back to top</a></div>
+        </div>
+    </div>
+    </footer>
+
+</body>
+</html>
