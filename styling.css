@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
 html,body{
     overflow-x:hidden;
     height:100%;
@@ -25,9 +24,9 @@ h1, h2, h3, h4, h6{
 
 #slide1caption{
     position: relative;
-    top: -450px;
+    top: -550px;
     font-size: 350%;
-    left: 500px;
+    left: 600px;
     text-align: left;
     z-index: 5
 }
@@ -61,20 +60,13 @@ footer {
 .carousel-inner img {
     width: 100%;
     margin: auto;
-    height: 100%
 }
 
-.carousel,.item,.active{
-    height:100%;
-}
-.carousel-inner{
-    height:100%;
-}
 
 #shopbut {
     position: relative;
     float: right;
-    top: -70px;
+    top: -200px;
 }
 
 .icon-color{
@@ -253,6 +245,10 @@ ul {
     width: 25%;
 }
 
+#addcart{
+    width: 25%;
+}
+
 #modelx{
     width: 25%;
 }
@@ -328,3 +324,11 @@ ul {
     height: 150px;
 }
 
+.checkoutheader{
+    text-align: left;
+}
+
+#labels{
+    position: relative;
+    left: -200%;
+}
